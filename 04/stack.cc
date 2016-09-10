@@ -24,7 +24,7 @@ int main()
   
   for (i=0; i < ITEMS_NR; i++) stackFv.push(itemsTab[i]); // wstawienie na stos
   for (i = 0; i < ITEMS_NR; i++) {
-    cout << stackFv.top().typ << '\t' << stackFv.top().wartosc << endl; // wydruk
+    cout << stackFv.top().typ << '\t' << stackFv.top().wartosc << endl; // ekran
     stackFv.pop(); // zdjecie ze stosu
   }
   return 0;
