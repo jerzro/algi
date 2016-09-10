@@ -32,7 +32,7 @@ int main()
   int i; // iterator dla tablicy 
   link t; // iterator dla dowiazania
   top = NULL;
-  nodes_nr = read_data("cstack.txt"); // wypelnienie tablicy wezlow
+  nodes_nr = read_data("stos.in"); // wypelnienie tablicy wezlow
 // wlozenie wezlow na stos
   for (i = 0; i < nodes_nr; i++) 
     push(nodes_tab[i]);
@@ -42,7 +42,7 @@ int main()
     nodes_tab[i] = pop();
     i = i+1;
   }
-  write_data("data.out"); // zapis danych do pliku
+  write_data("stos.out"); // zapis danych do pliku
   return 0;
 }
 
